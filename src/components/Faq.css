@@ -1,0 +1,78 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.general {
+    background: #ff895d; 
+    width: 100%;
+    padding: 1rem;
+}
+
+h1 {
+    padding: 0.5rem 0;
+    font-size: 2rem;
+    color: #fff;
+}
+
+h2 {
+    padding: 0.8rem 0;
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+button {
+    font-size: 2rem;
+    height: 1.9rem;
+    width: 1.9rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    user-select: none;
+    border: none;
+    display: flex;
+    border-radius: 1rem;
+    border: 1px solid gray;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 235, 235);
+}
+
+section div,
+section p {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    border-radius: 0.8rem;
+}
+
+.open {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+h4,
+p {
+    text-align: left;
+    margin: 0.7rem 1rem;
+}
+
+
+@media (min-width:577px) {
+    .general {
+        width: 37rem;
+        height: max-content;
+        border-radius: 1rem;
+    }
+}
+
+@media (min-width:1024px) {
+    .general {
+        width: 55rem;
+        height: max-content;
+    }
+}
